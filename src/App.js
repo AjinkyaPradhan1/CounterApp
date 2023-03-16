@@ -12,13 +12,13 @@ function App() {
 
   const decrement = ()=>{
     
-
+    setCount(count - 1);
     if(count==0){
-      setCount(0);
+      setCount(count * 0);
       console.log("Negative values!!!!!.....Why?")
       console.log("Decrement");
     }
-    setCount(count - 1);
+    
     
   }
 
