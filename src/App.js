@@ -7,7 +7,6 @@ function App() {
 
   const increment = ()=>{
     setCount(count + 1);
-    console.log("Button clcked");
   }
 
   const decrement = ()=>{
@@ -15,8 +14,6 @@ function App() {
     setCount(count - 1);
     if(count===0){
       setCount(count * 0);
-      console.log("Negative values!!!!!.....Why?")
-      console.log("Decrement");
     }
     
     
