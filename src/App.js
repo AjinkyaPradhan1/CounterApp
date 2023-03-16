@@ -13,7 +13,7 @@ function App() {
   const decrement = ()=>{
     setCount(count - 1);
 
-    if(count<=0){
+    if(count==0){
       setCount(0);
       alert("Negative values!!!!!.....Why?")
     }
