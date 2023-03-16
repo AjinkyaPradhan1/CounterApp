@@ -15,7 +15,7 @@ function App() {
 
     if(count==0){
       setCount(0);
-      alert("Negative values!!!!!.....Why?")
+      console.log("Negative values!!!!!.....Why?")
     }
     
   }
